@@ -327,6 +327,7 @@ class ApplicationInsights {
                 id: Tools.generateGuid()
             },
             device: {
+                type: "PC",
                 id: "browser",
                 locale: this._locale.id,
                 resolution: this._window.screen.availWidth + "x" + this._window.screen.availHeight
